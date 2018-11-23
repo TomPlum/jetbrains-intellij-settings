@@ -1,0 +1,14 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="TypeScript" />
+      <blacklist language="Java">
+        <added pattern="robocode.Robot.ahead(distance)" />
+        <added pattern="robocode.Robot.turnGunRight(degrees)" />
+        <added pattern="robocode.Robot.back(distance)" />
+      </blacklist>
+      <blacklist language="Groovy" />
+      <blacklist language="Kotlin" />
+    </blacklists>
+  </component>
+</application>
